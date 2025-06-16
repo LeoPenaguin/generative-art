@@ -1,0 +1,35 @@
+<!-- index.html : main gallery -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generative Art Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="text-center p-6">
+    <h1 class="text-3xl font-bold">Generative Art Gallery</h1>
+    <p class="text-gray-400">Visual explorations coded with p5.js</p>
+  </header>
+
+  <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+    <!-- Sketches listed here -->
+    <a href="sketches/cercles_aleatoires/index.html" class="block bg-gray-800 rounded-xl shadow hover:shadow-xl transition">
+      <div class="aspect-w-4 aspect-h-3">
+        <iframe src="sketches/cercles_aleatoires/index.html" class="w-full h-full rounded-t-xl"></iframe>
+      </div>
+      <div class="p-4">
+        <h2 class="text-xl font-semibold">Random Circles</h2>
+        <p class="text-sm text-gray-400">Experiments in colorful chaos</p>
+      </div>
+    </a>
+
+    <!-- Add more sketches here following the same structure -->
+  </main>
+
+  <footer class="text-center text-gray-500 text-sm p-4">
+    © 2025 Léo - Generative art with love and p5.js
+  </footer>
+</body>
+</html>
