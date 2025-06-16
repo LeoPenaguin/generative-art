@@ -1,0 +1,24 @@
+{
+  "name": "generative-art",
+  "description": "Generative art gallery with p5.js and Vite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "generative",
+    "art",
+    "p5js",
+    "vite",
+    "gallery"
+  ],
+  "author": "Léo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
